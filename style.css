@@ -1,0 +1,120 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.main-section{
+    background-image: url("images/hero-bg.png");
+    background-size: cover;
+    height: 1000px;
+}
+.navbar-light .navbar-brand {
+    color: rgb(241 237 237 / 90%);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+.fa-user{
+    padding: 0px 6px;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(250 246 246 / 90%);
+    font-size: 1rem;
+    font-weight: 500;
+}
+.nav-item :hover{
+    color: aquamarine !important;
+}
+
+/* ........................................navbar.................................................... */
+.crypto {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px 0px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h2.crypto-heading {
+    font-family: 'Open Sans';
+    font-size: 3rem;
+    color: white;
+}
+p.crypto-content {
+    color: white;
+    font-size: 1rem;
+    padding: 0px 0px !important;
+}
+button.crypto-bt {
+    width: 170px;
+    height: 40px;
+    border: none;
+    background: #00bbf0;
+    color: white;
+}
+button.crypto-bt:hover{
+    background: rgb(22, 169, 167)
+}
+img.crypto-img1 {
+    width: 37vw;
+    height: auto;
+}
+
+/* ........................................navbar.................................................... */
+
+.services-section{
+    padding: 50px 0px;
+}
+h2.top-heading {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #00bbf0;
+}
+span.services-span {
+    color: black;
+}
+p.top-content {
+    text-align: center;
+    font-size: 1rem;
+}
+.card-main {
+    display: flex;
+    justify-content: space-evenly;
+}
+img.favicon-img {
+    width: 90px;
+    padding: 15px 0px;
+}
+.services-card {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f8f8f9;
+    border-radius: 4px;
+    margin: 10px;
+}
+h2.favicon-heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: black;
+}
+p.favicon-content {
+    font-size: 1rem;
+    color: black;
+}
+span.favicon-span {
+    color: black;
+    font-size: 1rem;
+    padding-bottom: 15px;
+}
+.card-main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
