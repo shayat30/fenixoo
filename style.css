@@ -4,6 +4,13 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+a{
+    text-decoration: none;
+}
+li{
+    
+    list-style: none;
+}
 .main-section{
     background-image: url("images/hero-bg.png");
     background-size: cover;
@@ -37,6 +44,7 @@
     margin: 100px 0px;
     justify-content: space-evenly;
     align-items: center;
+    padding: 0px 12px;
 }
 h2.crypto-heading {
     font-family: 'Open Sans';
@@ -138,6 +146,8 @@ button.favicon-button:hover {
 
 .about-section {
     background-color: #00204a;
+    /* margin: 0px 14px; */
+    padding: 0px 12px;
 }
 .about-one {
     padding: 20px 0px;
@@ -300,3 +310,116 @@ h4.team-two-heading {
 }
 
 /* ........................................navbar.................................................... */
+
+h2.customer-heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 30px 0px;
+}
+span.customer-card-one1 {
+    color: #00bbf0;
+}
+.customer-card-one {
+    width: 550px;
+    height: auto;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    box-shadow: 3px 3px lightgray;
+    padding: 10px 10px;
+    position: relative;
+    margin: 30px 0px;
+}
+img.customer-img1 {
+    width: 80px;
+    clip-path: circle(50%);
+    position: absolute;
+    top: -40px;
+    left: 18px;
+}
+h5.customer-card-one-heading {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 35px 0px 0px 17px !important;
+    margin: 0px !important;
+}
+span.customer-card-one-span {
+    font-size: 1rem;
+    padding: 0px 0px 10px 18px;
+}
+p.customer-card-one-content {
+    font-size: 1rem;
+    padding: 10px 0px 15px 17px;
+    margin: 0px;
+}
+.card-main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
+
+/* ........................................navbar.................................................... */
+
+.footer-section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #00204a;
+    padding: 20px 0px;
+}
+.info {
+    margin: 10px;
+}
+.addres {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.link {
+    margin: 5px;
+}
+.subscribe {
+    margin: 10px;
+}
+h2.addres-one {
+    color: white;
+    font-size: 2rem;
+    padding: 10px 0px;
+}
+a {
+    color: white;
+    padding: 6px 5px;
+}
+h2.info-heading {
+    color: white;
+    font-size: 2rem;
+    padding: 10px 0px;
+}
+p.info-content {
+    color: white;
+    font-size: 1rem;
+}
+h2.link-heading {
+    color: white;
+    font-size: 2rem;
+    padding: 8px 24px;
+}
+h2.sub-heading {
+    color: white;
+    font-size: 2rem;
+    padding: 10px 0px;
+}
+button.subs {
+    width: 186px;
+    height: 40px;
+    background: aqua;
+    border-radius: 4px;
+}
+p.last-one {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 10px 0px;
+    margin: 10px;
+}
+
